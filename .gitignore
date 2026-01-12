@@ -185,3 +185,8 @@ compile_commands.json
 
 # Eclipse generated file for annotation processors
 .factorypath
+
+# Ignore everything inside .github except the workflows directory and its files
+.github/*
+!.github/workflows/
+!.github/workflows/**
